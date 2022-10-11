@@ -1,7 +1,7 @@
 import React from "react";
 import Terminal from "../about/Terminal";
 import Style from "../about/About.module.scss";
-import { Box, Grid } from "@mui/material";
+import { Box } from "@mui/material";
 import { info } from "../../info/Info";
 
 export default function Portfolio() {
