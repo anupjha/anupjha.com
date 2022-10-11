@@ -1,0 +1,7 @@
+# React Portfolio, multiple pages with dark mode
+
+## how to use
+
+- fork the repository and clone locally
+- run `npm install` to install dependencies
+- once installation is complete, run `npm run start` to get your local copy running in the browser.
