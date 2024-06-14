@@ -18,7 +18,7 @@ export default function Home() {
           I used to build large scale JavaScript application...Currently working as an Engineering Manager, I am dedicated to steering teams towards innovation, efficiency, and excellence. With a passion for both technology and people, I bridge the gap between technical prowess and effective collaboration.
           <Link
               href="/about"
-              className={cn(buttonVariants({ size: "xs" }), "w-full sm:w-fit")}
+              className={cn(buttonVariants({ size: "sm" }), "w-full sm:w-fit")}
             >
               more
             </Link>
