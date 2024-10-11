@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "@/styles/globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Footer from "@/components/footer";
@@ -16,20 +17,20 @@ export const metadata: Metadata = {
   keywords: [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Server Components",
-    "Radix UI",
-    "Shadcnui",
     "Javascript",
     "Blog",
+    "System Design",
+    "NodeJs",
+    "Data Structure",
+    "Algorithms",
   ],
   authors: [
     {
-      name: "Coding Jitsu",
-      url: "https://github.com/codingjitsu",
+      name: "Anup Jha",
+      url: "https://github.com/anupjha",
     },
   ],
-  creator: "coding jitsu",
+  creator: "anup jha",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -59,6 +60,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head></head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
@@ -69,6 +71,7 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <Footer />
         </ThemeProvider>
+        <GoogleAnalytics gaId="G-KS41V965V1" />
       </body>
     </html>
   );

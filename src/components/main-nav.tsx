@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 import { cn } from "@/lib/utils";
 // import { Icons } from "@/components/icons";
@@ -28,8 +29,14 @@ export function MainNav({ className }: { className?: string }) {
     >
       <Link href={"/"}>
         <div className="flex items-center justify-between w-32">
-          <Icons.logo className="h-6 w-6" />
-          <p>Coding Jitsu</p>
+          {/* <Icons.logo className="h-6 w-6" /> */}
+          <Image
+            src="/favicon-32x32.png"
+            width={32}
+            height={32}
+            alt="Picture of the author"
+          />
+          <p>Anup Jha</p>
         </div>
       </Link>
       <NavigationMenu>

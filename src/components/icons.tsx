@@ -1,19 +1,21 @@
 import {
   Rss,
-  Twitter,
-  Command,
+  Rabbit,
+  Linkedin,
   ArrowRight,
   Icon as LucidIcon,
   LucideProps,
 } from "lucide-react";
 
+import Twitter from "lucide-react";
 export type Icon = typeof LucidIcon;
 
 export const Icons = {
-  logo: Command,
+  logo: Rabbit,
   rss: Rss,
   arrowRight: ArrowRight,
   twitter: Twitter,
+  linkedIn: Linkedin,
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden="true"

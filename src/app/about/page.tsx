@@ -22,20 +22,44 @@ export default async function AboutPage() {
         </Container>
       </div>
       <div className="container max-w-6xl py-6 lg:py-10">
-        <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
-          <div className="min-w-48 max-w-48 flex flex-col gap-2">
-            <p className="text-muted-foreground text-center break-words">
-              Software Developer
-            </p>
-          </div>
+        <div>
           <p className="text-muted-foreground text-lg py-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+            Currently working as an Engineering Manager, I am dedicated to
+            steering teams towards innovation, efficiency, and excellence. With
+            a passion for both technology and people, I bridge the gap between
+            technical prowess and effective collaboration.
+          </p>{" "}
+          <p className="text-muted-foreground text-lg py-4">
+            My journey has been marked by a deep understanding of engineering
+            principles, honed through years of hands-on experience. From
+            conceptualization to execution, I have a track record of
+            transforming intricate ideas into tangible solutions. However, my
+            role extends far beyond technical prowess. I recognize that a
+            successful engineering team is not only built on code but on the
+            strengths of its members.
+          </p>{" "}
+          <p className="text-muted-foreground text-lg py-4">
+            I thrive on fostering an environment that empowers individuals to
+            reach their potential. By promoting open communication, recognizing
+            achievements, and providing mentorship, I create a cohesive unit
+            that delivers results greater than the sum of its parts. I believe
+            that diverse perspectives fuel innovation, and I am committed to
+            cultivating an inclusive workspace where all voices are heard and
+            valued.
+          </p>{" "}
+          <p className="text-muted-foreground text-lg py-4">
+            In a rapidly evolving technological landscape, I remain adaptable
+            and eager to embrace change. Whether it's navigating complex
+            challenges or identifying emerging trends, I am dedicated to leading
+            my team with a blend of strategic thinking and a hands-on approach.
+            My goal is to not only meet project goals but to exceed them,
+            driving the team and the organization to new heights.
+          </p>{" "}
+          <p className="text-muted-foreground text-lg py-4">
+            Collaboration, continuous learning, and a passion for progress
+            define my approach to engineering management. Together, we will
+            forge ahead, creating solutions that leave an indelible mark on both
+            the industry and the world.
           </p>
         </div>
       </div>

@@ -18,27 +18,27 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Icons.logo className="h-6 w-6" />
-              <span className="text-md font-semibold">Coding Jitsu</span>
+              <span className="text-md font-semibold">Anup Jha</span>
             </div>
             <p className="text-gray-500 dark:text-gray-400 text-sm">
               Stay Up to Date with the latest news and insights from our blog.
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://twitter.com/w3tsadev"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Twitter"
-              >
-                <Icons.twitter className="h-6 w-6 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300" />
-              </a>
-              <a
-                href="https://github.com/w3tsadev"
+                href="https://github.com/anupjha"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Github"
               >
                 <Icons.gitHub className="h-6 w-6 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/anupkrjha/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                <Icons.linkedIn className="h-6 w-6 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300" />
               </a>
             </div>
           </div>
@@ -62,27 +62,11 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  href="mailto:w3tsadev@gmail.com"
+                  href="mailto:anupkrjha@gmail.com"
                   className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300"
                 >
                   Contact
                 </a>
-              </li>
-              <li>
-                <Link
-                  href="/terms-of-services"
-                  className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300"
-                >
-                  Terms of Services
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/privacy-policy"
-                  className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300"
-                >
-                  Privacy Policy
-                </Link>
               </li>
               <li>
                 <Link
@@ -133,7 +117,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t border-gray-200 pt-4 text-center text-xs text-gray-500 dark:border-gray-700 dark:text-gray-400">
-          &copy; 2024 Coding Jitsu. All rights reserved.
+          &copy; 2024 Anup Jha. All rights reserved.
         </div>
       </div>
     </footer>
